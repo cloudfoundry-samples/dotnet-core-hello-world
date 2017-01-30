@@ -1,4 +1,5 @@
 ---
   applications:
     - name: asp_web_app
-      disk_quota: 1536M
+      disk_quota: 1536M	
+      host: asp-web-app-${random-word}
