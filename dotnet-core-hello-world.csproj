@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
     <DebugType>portable</DebugType>
-    <AssemblyName>dotnet-core-hello-world</AssemblyName>
+    <AssemblyName>dotnet-core-Hello-World</AssemblyName>
     <OutputType>Exe</OutputType>
     <PackageId>dotnet-core-hello-world</PackageId>
   </PropertyGroup>
