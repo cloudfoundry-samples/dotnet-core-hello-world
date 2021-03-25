@@ -10,7 +10,7 @@ namespace HelloWeb
         {
             app.Run(context =>
             {
-                return context.Response.WriteAsync("New Upgraded App");
+                return context.Response.WriteAsync("V3 Upgraded");
             });
         }
     }
