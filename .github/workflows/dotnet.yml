@@ -3,10 +3,10 @@
 name: .NET
 
 on:
-  push:
-    branches: [ workitem ]
+  #push:
+    #branches: [ workitem ]
   pull_request:
-    branches: [ workitem ]
+    branches: [ Integration ]
 
 jobs:
   build:
