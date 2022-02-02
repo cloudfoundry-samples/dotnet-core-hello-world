@@ -6,7 +6,7 @@ on:
   #push:
     #branches: [ workitem ]
   pull_request:
-    branches: [ Integration ]
+    branches: [ integration ]
 
 jobs:
   build:
