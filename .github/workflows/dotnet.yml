@@ -2,10 +2,10 @@
 name: .NET
 
 on:
-  #push:
-    #branches: [ workitem ]
-  pull_request:
-    branches: [ Integration ]
+  push:
+    branches: [ workitem ]
+  #pull_request:
+    #branches: [ Integration ]
 
 jobs:
   build:
