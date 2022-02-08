@@ -2,10 +2,10 @@
 name: .NET
 
 on:
-  #push:
-    #branches: [ workitem ]
-  pull_request:
-    branches: [ Integration ]
+  push:
+    branches: [ workitem ]
+  #pull_request:
+    #branches: [ Integration ]
 
 jobs:
   build:
@@ -30,7 +30,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     if: github.event_name != 'pull_request'
-    environment: development
+    environment: Deployment
     steps:
        - name: running deployment script
          run: echo"deployment ...."
