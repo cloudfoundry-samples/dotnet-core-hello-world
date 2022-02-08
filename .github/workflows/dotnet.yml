@@ -33,5 +33,5 @@ jobs:
     environment: Deployment
     steps:
        - name: running deployment script
-         run: echo"deployment ...."
+         run: echo "deployment ...."
 
