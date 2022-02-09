@@ -4,7 +4,7 @@ name: .NET
   #push:
     #branches: [ workitem ]
   #pull_request:
-    #branches: [ Integratiion ]
+    #branches: [ Integration ]
 on:
    #schedule:
     #- cron: '0 0 * * *'
@@ -15,7 +15,7 @@ on:
     branches:
      - master
      - workitem
-     - Integration
+     - Integratiion
 
 jobs:
   build:
