@@ -1,11 +1,21 @@
 #comment
 name: .NET
 
-on:
-  push:
-    branches: [ workitem ]
+#on:
+  #push:
+    #branches: [ workitem ]
   #pull_request:
     #branches: [ Integration ]
+on:
+   #schedule:
+    #- cron: '0 0 * * *'
+   push:
+     branches:
+     - Workitem
+   pull_request:
+    branches:
+     - master
+     - integration
 
 jobs:
   build:
