@@ -3,6 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <DebugType>portable</DebugType>
+    <IsPackable>true</IsPackable>
     <AssemblyName>dotnet-core-hello-world</AssemblyName>
     <OutputType>Exe</OutputType>
     <PackageId>dotnet-core-hello-world</PackageId>
