@@ -1,1 +1,4 @@
-*       @Ramya-ravindra
+if branch == branch1*
+  * @Ramya-ravindra
+else if branch == master*
+  *.yml @Ramya-ravindra
