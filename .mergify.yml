@@ -5,7 +5,7 @@ pull_request_rules:
     actions:
       request_reviews:
         users:
-          - jd
+          - Ramya-ravindra
           
   - name: reviewers for develop branch
     conditions:
@@ -13,6 +13,6 @@ pull_request_rules:
     actions:
       request_reviews:
         users:
-          - jd
+          - Ramya-ravindra
           - jd2
    
