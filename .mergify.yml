@@ -1,0 +1,18 @@
+pull_request_rules:
+  - name: reviewers for develop branch
+    conditions:
+      - base=branch1
+    actions:
+      request_reviews:
+        users:
+          - Ramya-ravindra
+          
+  - name: reviewers for develop branch
+    conditions:
+      - base=master
+    actions:
+      request_reviews:
+        users:
+          - Ramya-ravindra
+          - jd2
+   
