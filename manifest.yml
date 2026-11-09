@@ -1,6 +1,7 @@
 ---
 applications:
-  - name: dotnet_core_hello_world
-    random-route: true
-    env:
-      CACHE_NUGET_PACKAGES: false
+- name: dotnet-core-hello-world
+  memory: 256M
+  stack: cflinuxfs4
+  buildpacks:
+  - dotnet_core_buildpack
